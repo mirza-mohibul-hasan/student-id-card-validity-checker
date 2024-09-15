@@ -1,5 +1,5 @@
 import cv2
-from logger import app_logger
+from app.logger import app_logger
 
 
 def preprocess_image(image_path):

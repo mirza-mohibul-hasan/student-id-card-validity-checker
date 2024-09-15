@@ -1,7 +1,7 @@
-from image_preprocessing import preprocess_image
-from ocr_service import detect_text_regions, extract_text_by_region
-from ner_service import extract_fields
-from logger import app_logger
+from app.image_preprocessing import preprocess_image
+from app.ocr_service import detect_text_regions, extract_text_by_region
+from app.ner_service import extract_fields
+from app.logger import app_logger
 
 
 def main(image_path):

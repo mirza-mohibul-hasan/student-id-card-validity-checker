@@ -1,7 +1,7 @@
 import spacy
 import re
-from ocr_service import clean_ocr_text
-nlp = spacy.load("en_core_web_sm")
+from app.ocr_service import clean_ocr_text
+nlp = spacy.load("en_core_web_trf")
 
 
 def extract_fields(lines):

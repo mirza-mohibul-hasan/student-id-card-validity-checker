@@ -1,7 +1,7 @@
 import easyocr
 import re
-from image_preprocessing import preprocess_image
-from logger import app_logger
+from app.image_preprocessing import preprocess_image
+from app.logger import app_logger
 reader = easyocr.Reader(['en'])
 
 
