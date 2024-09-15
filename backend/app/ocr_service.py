@@ -1,4 +1,5 @@
 import easyocr
+import re
 from image_preprocessing import preprocess_image
 from logger import app_logger
 reader = easyocr.Reader(['en'])
@@ -26,3 +27,9 @@ def extract_text_by_region(regions):
     sorted_lines = sorted(line_dict.items(), key=lambda item: item[0])
     lines = [' '.join(texts) for _, texts in sorted_lines]
     return lines
+
+
+def clean_ocr_text(text):
+    cleaned_text = re.sub(
+        r'[^\w\s/]', '', text)  # Remove unexpected characters
+    return cleaned_text

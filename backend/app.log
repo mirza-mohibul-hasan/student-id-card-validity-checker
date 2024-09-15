@@ -400,3 +400,55 @@ Extracted Lines from OCR:
 2024-09-15 22:24:47,977 - app_logger - INFO - 
 Extracted Lines from OCR:
 2024-09-15 22:24:47,979 - app_logger - INFO - ['BRAC University', 'MD. ASEER IRTIZA', 'Sclcnce', 'Bicitlor', 'Erdincering', 'I', 'Electrical and Electonic', 'Rnadentin 19171016', 'dad Grcin', '0u-01-2022', 'Mnlln']
+2024-09-15 22:52:51,021 - app_logger - INFO - Starting preprocessing of image: I:\ML Projects\Brain House\Testing System\data\test\mit.jpg
+2024-09-15 22:52:51,056 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-15 22:52:51,057 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-15 22:52:51,960 - app_logger - INFO - Text detection completed successfully.
