@@ -8,17 +8,14 @@ if not os.path.exists('logs'):
 
 def setup_logger(name, log_file, level=logging.INFO):
     log_file_path = os.path.join('logs', log_file)
-
     handler = RotatingFileHandler(
         log_file_path, maxBytes=1000000, backupCount=5)
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
     logger = logging.getLogger(name)
     logger.setLevel(level)
     handler.setFormatter(formatter)
     logger.addHandler(handler)
-
     return logger
 
 

@@ -1,0 +1,10 @@
+path: I:\ML Projects\Brain House\Testing System\data3c
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+names:
+  0: Expiration
+  1: Name
+  2: University
