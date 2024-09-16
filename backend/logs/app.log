@@ -2682,3 +2682,435 @@ Extracted Lines from OCR:
   [ 81 115 199]]]
 2024-09-16 21:44:35,743 - app_logger - INFO - Text detection completed successfully.
 2024-09-16 21:44:36,071 - app_logger - INFO - Extraction and validation successful
+2024-09-16 21:59:56,784 - app_logger - INFO - Image saved to uploads\aiub_test.jpg
+2024-09-16 21:59:56,784 - app_logger - INFO - Starting preprocessing of image: uploads\aiub_test.jpg
+2024-09-16 21:59:56,793 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 21:59:56,794 - app_logger - INFO - Detecting text regions in image: [[[110 140 159]
+  [112 142 161]
+  [112 142 161]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [102 127 147]]
+
+ [[114 144 163]
+  [112 144 163]
+  [113 143 162]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [101 126 146]]
+
+ [[116 147 168]
+  [113 146 166]
+  [111 142 163]
+  ...
+  [ 98 123 143]
+  [ 98 123 143]
+  [ 99 124 144]]
+
+ ...
+
+ [[ 19  36  62]
+  [ 26  44  67]
+  [ 25  42  63]
+  ...
+  [102 124 136]
+  [116 138 150]
+  [136 158 170]]
+
+ [[ 11  27  50]
+  [ 23  37  59]
+  [ 13  28  47]
+  ...
+  [132 154 166]
+  [122 144 156]
+  [ 93 115 127]]
+
+ [[  8  22  44]
+  [ 25  39  61]
+  [ 13  27  45]
+  ...
+  [106 128 140]
+  [119 141 153]
+  [139 161 173]]]
+2024-09-16 21:59:57,510 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 21:59:57,887 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:06:33,179 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:06:33,179 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:06:33,232 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:06:33,233 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:06:34,397 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:06:34,689 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:12:17,306 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:12:17,307 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:12:17,352 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:12:17,354 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:12:18,527 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:12:18,828 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:19:48,581 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:19:48,582 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:19:48,632 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:19:48,633 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:19:49,827 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:19:50,118 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:26:31,320 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:26:31,321 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:26:31,369 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:26:31,370 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:26:32,681 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:26:33,025 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:27:05,868 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:27:05,869 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:27:05,916 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:27:05,917 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:27:07,105 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:27:07,388 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:27:38,405 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:27:38,405 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:27:38,469 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:27:38,470 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:27:39,504 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:27:39,780 - app_logger - INFO - Extraction and validation successful
+2024-09-16 22:28:28,741 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:28:28,741 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 22:28:28,806 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 22:28:28,807 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 22:28:29,841 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 22:28:30,102 - app_logger - INFO - Extraction and validation successful
