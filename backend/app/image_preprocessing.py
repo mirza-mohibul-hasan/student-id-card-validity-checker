@@ -4,7 +4,7 @@ from app.logger import app_logger
 """ Image Preprocess for NLP """
 
 
-def preprocess_image(image_path):
+def preprocess_image_nlp(image_path):
     try:
         app_logger.info(f"Starting preprocessing of image: {image_path}")
         img = cv2.imread(image_path)

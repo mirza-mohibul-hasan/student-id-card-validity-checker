@@ -1,13 +1,13 @@
 import easyocr
 import re
-from app.image_preprocessing import preprocess_image
+from app.image_preprocessing import preprocess_image_nlp
 from app.logger import app_logger
 reader = easyocr.Reader(['en'])
 
 """ OCR Service for NLP """
 
 
-def detect_text_regions(image):
+def detect_text_regions_nlp(image):
     try:
         app_logger.info(f"Detecting text regions in image: {image}")
         result = reader.readtext(image, detail=1)
@@ -18,7 +18,7 @@ def detect_text_regions(image):
         raise
 
 
-def extract_text_by_region(regions):
+def extract_text_by_region_nlp(regions):
     # Group texts by their vertical position (y-coordinate) to treat them as lines
     line_dict = {}
     for (bbox, text, prob) in regions:
@@ -31,7 +31,7 @@ def extract_text_by_region(regions):
     return lines
 
 
-def clean_ocr_text(text):
+def clean_ocr_text_nlp(text):
     cleaned_text = re.sub(
         r'[^\w\s/]', '', text)  # Remove unexpected characters
     return cleaned_text

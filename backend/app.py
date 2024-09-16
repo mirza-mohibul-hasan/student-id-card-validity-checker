@@ -3,15 +3,15 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 import os
 from datetime import datetime
-from app.image_preprocessing import preprocess_image
-from app.ocr_service import detect_text_regions, extract_text_by_region
-from app.ner_service import extract_fields
+from app.image_preprocessing import preprocess_image_nlp
+from app.ocr_service import detect_text_regions_nlp, extract_text_by_region_nlp
+from app.ner_service import extract_fields_nlp
 from app.logger import app_logger
 import difflib
 import easyocr
 import re
 import cv2
-from ultralytics import YOLO\
+from ultralytics import YOLO
 
 reader = easyocr.Reader(['en'])
 app = Flask(__name__)
@@ -51,13 +51,13 @@ def process_image_nlp():
         app_logger.info(f'Image saved to {file_path}')
 
         try:
-            _, original_image = preprocess_image(file_path)
-            regions = detect_text_regions(original_image)
-            lines = extract_text_by_region(regions)
-            fields = extract_fields(lines)
+            _, original_image = preprocess_image_nlp(file_path)
+            regions = detect_text_regions_nlp(original_image)
+            lines = extract_text_by_region_nlp(regions)
+            fields = extract_fields_nlp(lines)
 
             # Validate input data against extracted data
-            validation_results = validate_data(
+            validation_results = validate_data__nlp(
                 fields, name_input, university_input)
             app_logger.info("Extraction and validation successful")
             return jsonify(validation_results), 200
@@ -66,8 +66,7 @@ def process_image_nlp():
             return jsonify({"error": "Failed to process image"}), 500
 
 
-def validate_data(extracted_fields, name_input, university_input):
-    # Handle null values for extracted fields
+def validate_data__nlp(extracted_fields, name_input, university_input):
     name_extracted = extracted_fields.get('Name') or "Not Recognised"
     university_extracted = extracted_fields.get(
         'University') or "Not Recognised"
@@ -75,14 +74,14 @@ def validate_data(extracted_fields, name_input, university_input):
         'Expiration') or "Not Recognised"
 
     name_similarity = (
-        calculate_similarity(name_input, name_extracted)
+        calculate_similarity_nlp(name_input, name_extracted)
         if name_extracted != "Not Recognised" else "Not Recognised"
     )
     university_similarity = (
-        calculate_similarity(university_input, university_extracted)
+        calculate_similarity_nlp(university_input, university_extracted)
         if university_extracted != "Not Recognised" else "Not Recognised"
     )
-    expiration_status = check_expiration(expiration_extracted)
+    expiration_status = check_expiration_nlp(expiration_extracted)
 
     # Determine if the overall card is valid based on these results
     results = {
@@ -94,7 +93,7 @@ def validate_data(extracted_fields, name_input, university_input):
         "name_match": name_similarity,
         "university_match": university_similarity,
         "is_expired": expiration_status,
-        "is_valid_card": determine_overall_validity({
+        "is_valid_card": determine_overall_validity_nlp({
             "name_match": name_similarity,
             "university_match": university_similarity,
             "is_expired": expiration_status
@@ -103,14 +102,13 @@ def validate_data(extracted_fields, name_input, university_input):
     return results
 
 
-def calculate_similarity(input_text, extracted_text):
+def calculate_similarity_nlp(input_text, extracted_text):
     similarity = difflib.SequenceMatcher(
         None, input_text.lower(), extracted_text.lower()).ratio()
     return round(similarity * 100, 2)
 
 
-def check_expiration(expiration_date_str):
-    # Mark as expired (True) if expiration is "Not Recognised"
+def check_expiration_nlp(expiration_date_str):
     if expiration_date_str == "Not Recognised":
         return True
     try:
@@ -120,32 +118,28 @@ def check_expiration(expiration_date_str):
         return True  # If the expiration date is invalid or unrecognized, mark as expired
 
 
-def determine_overall_validity(validation_results):
-    # Mark the card as invalid if any field is "Not Recognised" or expired
+def determine_overall_validity_nlp(validation_results):
     if validation_results['name_match'] == "Not Recognised" or validation_results['university_match'] == "Not Recognised" or validation_results['is_expired']:
         return False
 
-    # Define thresholds for name and university matching
     name_threshold = 70
     university_threshold = 70
 
     name_valid = validation_results['name_match'] >= name_threshold
     university_valid = validation_results['university_match'] >= university_threshold
-    # Check if not expired
     expiration_valid = not validation_results['is_expired']
 
-    # Return true if all checks pass
     return name_valid and university_valid and expiration_valid
 
 # YOLO
 
 
-def remove_special_characters(text):
+def remove_special_characters_yolo(text):
     return re.sub(r'[^A-Za-z0-9\s/]', '', text)
 
 
 # Function to correct common OCR mistakes
-def correct_ocr_mistakes(text):
+def correct_ocr_mistakes_yolo(text):
     corrections = {'0': 'O', '1': 'I', '5': 'S'}
     for incorrect, correct in corrections.items():
         text = text.replace(incorrect, correct)
@@ -153,15 +147,15 @@ def correct_ocr_mistakes(text):
 
 
 # Function to clean date formats
-def clean_date_format(text):
+def clean_date_format_yolo(text):
     return re.sub(r'(\d{1,2})/(\d{1,2})/(\d{4})', lambda m: f'{int(m.group(1)):02}/{int(m.group(2)):02}/{m.group(3)}', text)
 
 
 # Function to clean OCR text (combining all steps)
-def clean_ocr_text(text):
-    text = remove_special_characters(text)
-    text = correct_ocr_mistakes(text)
-    text = clean_date_format(text)
+def clean_ocr_text_yolo(text):
+    text = remove_special_characters_yolo(text)
+    text = correct_ocr_mistakes_yolo(text)
+    text = clean_date_format_yolo(text)
     return text
 
 
@@ -195,7 +189,7 @@ def extract_text_from_yolo(image_path, model, save_image_path):
         result = reader.readtext(cropped_image, detail=0)
         if result:
             # Clean the OCR output
-            result = [clean_ocr_text(text) for text in result]
+            result = [clean_ocr_text_yolo(text) for text in result]
 
             # Store cleaned text based on detected class
             if class_id == 0:  # 'Expiration'
@@ -242,7 +236,7 @@ def process_image_yolo():
                 file_path, model, save_image_path)
 
             # Validate input data against extracted data
-            validation_results = validate_data(
+            validation_results = validate_data_yolo(
                 extracted_texts, name_input, university_input)
 
             return jsonify(validation_results), 200
@@ -250,7 +244,7 @@ def process_image_yolo():
             return jsonify({"error": f"Failed to process image: {str(e)}"}), 500
 
 
-def validate_data(extracted_fields, name_input, university_input):
+def validate_data_yolo(extracted_fields, name_input, university_input):
     # Handle null values for extracted fields
     name_extracted = ' '.join(
         extracted_fields.get('Name', [])) or "Not Recognised"
@@ -260,14 +254,14 @@ def validate_data(extracted_fields, name_input, university_input):
         extracted_fields.get('Expiration', [])) or "Not Recognised"
 
     name_similarity = (
-        calculate_similarity(name_input, name_extracted)
+        calculate_similarity_yolo(name_input, name_extracted)
         if name_extracted != "Not Recognised" else "Not Recognised"
     )
     university_similarity = (
-        calculate_similarity(university_input, university_extracted)
+        calculate_similarity_yolo(university_input, university_extracted)
         if university_extracted != "Not Recognised" else "Not Recognised"
     )
-    expiration_status = check_expiration(expiration_extracted)
+    expiration_status = check_expiration_yolo(expiration_extracted)
 
     # Determine if the overall card is valid based on these results
     results = {
@@ -279,7 +273,7 @@ def validate_data(extracted_fields, name_input, university_input):
         "name_match": name_similarity,
         "university_match": university_similarity,
         "is_expired": expiration_status,
-        "is_valid_card": determine_overall_validity({
+        "is_valid_card": determine_overall_validity_yolo({
             "name_match": name_similarity,
             "university_match": university_similarity,
             "is_expired": expiration_status
@@ -288,7 +282,7 @@ def validate_data(extracted_fields, name_input, university_input):
     return results
 
 
-def calculate_similarity(input_text, extracted_text):
+def calculate_similarity_yolo(input_text, extracted_text):
     if input_text and extracted_text != "Not Recognised":
         similarity = difflib.SequenceMatcher(
             None, input_text.lower(), extracted_text.lower()).ratio()
@@ -296,7 +290,7 @@ def calculate_similarity(input_text, extracted_text):
     return "Not Recognised"
 
 
-def check_expiration(expiration_date_str):
+def check_expiration_yolo(expiration_date_str):
     # Mark as expired (True) if expiration is "Not Recognised"
     if expiration_date_str == "Not Recognised":
         return True
@@ -307,7 +301,7 @@ def check_expiration(expiration_date_str):
         return True  # If the expiration date is invalid or unrecognized, mark as expired
 
 
-def determine_overall_validity(validation_results):
+def determine_overall_validity_yolo(validation_results):
     # Mark the card as invalid if any field is "Not Recognised" or expired
     if validation_results['name_match'] == "Not Recognised" or validation_results['university_match'] == "Not Recognised" or validation_results['is_expired']:
         return False
