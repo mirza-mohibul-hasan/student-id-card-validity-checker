@@ -1582,3 +1582,725 @@ Extracted Lines from OCR:
   [ 81 115 199]]]
 2024-09-16 01:56:19,829 - app_logger - INFO - Text detection completed successfully.
 2024-09-16 01:56:20,004 - app_logger - INFO - Extraction and validation successful
+2024-09-16 17:57:51,742 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 17:57:51,743 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 17:57:51,817 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 17:57:51,818 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 17:57:53,305 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 17:57:53,548 - app_logger - INFO - Extraction and validation successful
+2024-09-16 18:04:29,453 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:04:29,454 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:04:29,524 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:04:29,525 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:04:31,057 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:04:31,380 - app_logger - ERROR - Processing error: 'path/to/yolo/model' does not exist
+2024-09-16 18:04:44,955 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:04:44,955 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:04:44,992 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:04:44,993 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:04:45,790 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:04:46,018 - app_logger - ERROR - Processing error: 'path/to/yolo/model' does not exist
+2024-09-16 18:06:59,519 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:06:59,520 - app_logger - INFO - Starting image preprocessing
+2024-09-16 18:06:59,520 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:06:59,567 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:06:59,567 - app_logger - INFO - Starting text detection with CV2
+2024-09-16 18:06:59,568 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:07:01,141 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:07:01,142 - app_logger - INFO - Starting text extraction from regions
+2024-09-16 18:07:01,142 - app_logger - INFO - Starting field extraction using SpaCy
+2024-09-16 18:07:01,492 - app_logger - INFO - Starting YOLO text extraction
+2024-09-16 18:07:01,504 - app_logger - ERROR - Processing error: 'path/to/yolo/model' does not exist
+2024-09-16 18:08:16,988 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:08:16,988 - app_logger - INFO - Starting image preprocessing
+2024-09-16 18:08:16,989 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:08:17,036 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:08:17,036 - app_logger - INFO - Starting text detection with CV2
+2024-09-16 18:08:17,037 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:08:18,541 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:08:18,541 - app_logger - INFO - Starting text extraction from regions
+2024-09-16 18:08:18,541 - app_logger - INFO - Starting field extraction using SpaCy
+2024-09-16 18:08:18,862 - app_logger - INFO - Starting YOLO text extraction
+2024-09-16 18:08:19,592 - app_logger - ERROR - Processing error: [Errno 22] Invalid argument: 'I:\\ML Projects\\Brain House\\ID Verification\x08ackend\\models\\modelv1.pt'
+2024-09-16 18:08:28,367 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:08:28,368 - app_logger - INFO - Starting image preprocessing
+2024-09-16 18:08:28,368 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:08:28,407 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:08:28,407 - app_logger - INFO - Starting text detection with CV2
+2024-09-16 18:08:28,408 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:08:29,430 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:08:29,430 - app_logger - INFO - Starting text extraction from regions
+2024-09-16 18:08:29,431 - app_logger - INFO - Starting field extraction using SpaCy
+2024-09-16 18:08:29,730 - app_logger - INFO - Starting YOLO text extraction
+2024-09-16 18:08:29,975 - app_logger - ERROR - Processing error: [Errno 22] Invalid argument: 'I:\\ML Projects\\Brain House\\ID Verification\x08ackend\\models\\modelv1.pt'
+2024-09-16 18:11:34,606 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:11:34,607 - app_logger - INFO - Starting image preprocessing
+2024-09-16 18:11:34,607 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:11:34,667 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:11:34,667 - app_logger - INFO - Starting text detection with CV2
+2024-09-16 18:11:34,668 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:11:36,035 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:11:36,035 - app_logger - INFO - Starting text extraction from regions
+2024-09-16 18:11:36,036 - app_logger - INFO - Starting field extraction using SpaCy
+2024-09-16 18:11:36,377 - app_logger - INFO - Starting YOLO text extraction
+2024-09-16 18:11:39,349 - app_logger - ERROR - Processing error: 'list' object has no attribute 'pandas'
+2024-09-16 18:53:20,274 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:53:20,276 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 18:53:20,373 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:53:20,376 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 18:53:22,099 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:53:22,386 - app_logger - INFO - Extraction and validation successful
+2024-09-16 18:53:38,957 - app_logger - INFO - Image saved to uploads\aiub_test.jpg
+2024-09-16 18:53:38,957 - app_logger - INFO - Starting preprocessing of image: uploads\aiub_test.jpg
+2024-09-16 18:53:38,967 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 18:53:38,968 - app_logger - INFO - Detecting text regions in image: [[[110 140 159]
+  [112 142 161]
+  [112 142 161]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [102 127 147]]
+
+ [[114 144 163]
+  [112 144 163]
+  [113 143 162]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [101 126 146]]
+
+ [[116 147 168]
+  [113 146 166]
+  [111 142 163]
+  ...
+  [ 98 123 143]
+  [ 98 123 143]
+  [ 99 124 144]]
+
+ ...
+
+ [[ 19  36  62]
+  [ 26  44  67]
+  [ 25  42  63]
+  ...
+  [102 124 136]
+  [116 138 150]
+  [136 158 170]]
+
+ [[ 11  27  50]
+  [ 23  37  59]
+  [ 13  28  47]
+  ...
+  [132 154 166]
+  [122 144 156]
+  [ 93 115 127]]
+
+ [[  8  22  44]
+  [ 25  39  61]
+  [ 13  27  45]
+  ...
+  [106 128 140]
+  [119 141 153]
+  [139 161 173]]]
+2024-09-16 18:53:39,636 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 18:53:39,860 - app_logger - INFO - Extraction and validation successful
+2024-09-16 21:10:45,778 - app_logger - INFO - Image saved to uploads\aiub_test.jpg
+2024-09-16 21:10:45,779 - app_logger - INFO - Starting preprocessing of image: uploads\aiub_test.jpg
+2024-09-16 21:10:45,787 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 21:10:45,788 - app_logger - INFO - Detecting text regions in image: [[[110 140 159]
+  [112 142 161]
+  [112 142 161]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [102 127 147]]
+
+ [[114 144 163]
+  [112 144 163]
+  [113 143 162]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [101 126 146]]
+
+ [[116 147 168]
+  [113 146 166]
+  [111 142 163]
+  ...
+  [ 98 123 143]
+  [ 98 123 143]
+  [ 99 124 144]]
+
+ ...
+
+ [[ 19  36  62]
+  [ 26  44  67]
+  [ 25  42  63]
+  ...
+  [102 124 136]
+  [116 138 150]
+  [136 158 170]]
+
+ [[ 11  27  50]
+  [ 23  37  59]
+  [ 13  28  47]
+  ...
+  [132 154 166]
+  [122 144 156]
+  [ 93 115 127]]
+
+ [[  8  22  44]
+  [ 25  39  61]
+  [ 13  27  45]
+  ...
+  [106 128 140]
+  [119 141 153]
+  [139 161 173]]]
+2024-09-16 21:10:46,430 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 21:10:46,947 - app_logger - ERROR - Processing error: can only join an iterable
+2024-09-16 21:10:57,755 - app_logger - INFO - Image saved to uploads\aiub_test.jpg
+2024-09-16 21:10:57,756 - app_logger - INFO - Starting preprocessing of image: uploads\aiub_test.jpg
+2024-09-16 21:10:57,766 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 21:10:57,766 - app_logger - INFO - Detecting text regions in image: [[[110 140 159]
+  [112 142 161]
+  [112 142 161]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [102 127 147]]
+
+ [[114 144 163]
+  [112 144 163]
+  [113 143 162]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [101 126 146]]
+
+ [[116 147 168]
+  [113 146 166]
+  [111 142 163]
+  ...
+  [ 98 123 143]
+  [ 98 123 143]
+  [ 99 124 144]]
+
+ ...
+
+ [[ 19  36  62]
+  [ 26  44  67]
+  [ 25  42  63]
+  ...
+  [102 124 136]
+  [116 138 150]
+  [136 158 170]]
+
+ [[ 11  27  50]
+  [ 23  37  59]
+  [ 13  28  47]
+  ...
+  [132 154 166]
+  [122 144 156]
+  [ 93 115 127]]
+
+ [[  8  22  44]
+  [ 25  39  61]
+  [ 13  27  45]
+  ...
+  [106 128 140]
+  [119 141 153]
+  [139 161 173]]]
+2024-09-16 21:10:58,507 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 21:10:58,853 - app_logger - ERROR - Processing error: can only join an iterable
+2024-09-16 21:11:42,224 - app_logger - INFO - Image saved to uploads\aiub_test.jpg
+2024-09-16 21:11:42,225 - app_logger - INFO - Starting preprocessing of image: uploads\aiub_test.jpg
+2024-09-16 21:11:42,238 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 21:11:42,239 - app_logger - INFO - Detecting text regions in image: [[[110 140 159]
+  [112 142 161]
+  [112 142 161]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [102 127 147]]
+
+ [[114 144 163]
+  [112 144 163]
+  [113 143 162]
+  ...
+  [ 97 122 142]
+  [ 99 124 144]
+  [101 126 146]]
+
+ [[116 147 168]
+  [113 146 166]
+  [111 142 163]
+  ...
+  [ 98 123 143]
+  [ 98 123 143]
+  [ 99 124 144]]
+
+ ...
+
+ [[ 19  36  62]
+  [ 26  44  67]
+  [ 25  42  63]
+  ...
+  [102 124 136]
+  [116 138 150]
+  [136 158 170]]
+
+ [[ 11  27  50]
+  [ 23  37  59]
+  [ 13  28  47]
+  ...
+  [132 154 166]
+  [122 144 156]
+  [ 93 115 127]]
+
+ [[  8  22  44]
+  [ 25  39  61]
+  [ 13  27  45]
+  ...
+  [106 128 140]
+  [119 141 153]
+  [139 161 173]]]
+2024-09-16 21:11:43,247 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 21:11:43,678 - app_logger - INFO - Extraction and validation successful
+2024-09-16 21:11:56,415 - app_logger - INFO - Image saved to uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 21:11:56,416 - app_logger - INFO - Starting preprocessing of image: uploads\tumblr_n82kr6dQLX1teais2o1_1280.jpg
+2024-09-16 21:11:56,469 - app_logger - INFO - Image preprocessing completed successfully.
+2024-09-16 21:11:56,470 - app_logger - INFO - Detecting text regions in image: [[[ 95 159 244]
+  [ 92 157 249]
+  [ 58 126 225]
+  ...
+  [ 52 105 215]
+  [ 40  90 196]
+  [ 31  80 182]]
+
+ [[101 164 254]
+  [ 95 161 255]
+  [ 63 132 235]
+  ...
+  [ 53 115 223]
+  [ 46 104 209]
+  [ 41  97 198]]
+
+ [[ 70 136 231]
+  [ 69 135 237]
+  [ 49 119 226]
+  ...
+  [ 51 119 224]
+  [ 45 111 214]
+  [ 41 105 207]]
+
+ ...
+
+ [[ 17  50 129]
+  [ 18  53 133]
+  [ 26  63 147]
+  ...
+  [ 95 118 196]
+  [ 96 123 203]
+  [ 93 122 203]]
+
+ [[ 23  53 134]
+  [ 21  53 136]
+  [ 27  61 145]
+  ...
+  [ 80 107 188]
+  [ 84 112 196]
+  [ 83 113 196]]
+
+ [[ 23  53 134]
+  [ 21  51 134]
+  [ 24  54 141]
+  ...
+  [ 77 107 190]
+  [ 83 114 199]
+  [ 81 115 199]]]
+2024-09-16 21:11:57,526 - app_logger - INFO - Text detection completed successfully.
+2024-09-16 21:11:57,766 - app_logger - INFO - Extraction and validation successful

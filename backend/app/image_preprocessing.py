@@ -1,6 +1,8 @@
 import cv2
 from app.logger import app_logger
 
+""" Image Preprocess for NLP """
+
 
 def preprocess_image(image_path):
     try:
@@ -14,3 +16,6 @@ def preprocess_image(image_path):
     except Exception as e:
         app_logger.error(f"Error during image preprocessing: {str(e)}")
         raise
+
+
+""" IMAGE PREPROCESS FOR YOLO """

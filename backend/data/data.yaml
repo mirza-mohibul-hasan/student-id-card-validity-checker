@@ -1,4 +1,4 @@
-path: I:\ML Projects\Brain House\Testing System\data3c
+path: I:\ML Projects\Brain House\ID Verification\backend\data
 
 train: ../train/images
 val: ../valid/images

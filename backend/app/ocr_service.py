@@ -4,6 +4,8 @@ from app.image_preprocessing import preprocess_image
 from app.logger import app_logger
 reader = easyocr.Reader(['en'])
 
+""" OCR Service for NLP """
+
 
 def detect_text_regions(image):
     try:
@@ -33,3 +35,6 @@ def clean_ocr_text(text):
     cleaned_text = re.sub(
         r'[^\w\s/]', '', text)  # Remove unexpected characters
     return cleaned_text
+
+
+""" OCR SERVICE FOR YOLO """
